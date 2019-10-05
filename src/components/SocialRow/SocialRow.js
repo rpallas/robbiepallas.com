@@ -8,7 +8,7 @@ export default () => (
     <Col>
       <a
         style={{ color: "#000" }}
-        href="https://www.github.com/"
+        href="https://www.github.com/rpallas"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -18,7 +18,7 @@ export default () => (
     <Col>
       <a
         style={{ color: "#000" }}
-        href="https://www.linkedin.com/"
+        href="https://www.linkedin.com/in/robbiepallas/"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -28,7 +28,7 @@ export default () => (
     <Col>
       <a
         style={{ color: "#000" }}
-        href="https://twitter.com/"
+        href="https://twitter.com/robbiepallas"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -39,34 +39,13 @@ export default () => (
     <Col>
       <a
         style={{ color: "#000" }}
-        href="https://www.instagram.com/"
+        href="https://stackoverflow.com/users/459517/robbie"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i className="fab fa-instagram hover_effect" />
+        <i className="fab fa-stack-overflow hover_effect" />
       </a>
     </Col>
 
-    <Col>
-      <a
-        style={{ color: "#000" }}
-        className="hover_effect"
-        href="https://www.hackerrank.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i className="fab fa-hackerrank hover_effect" />
-      </a>
-    </Col>
-    <Col>
-      <a
-        style={{ color: "#000" }}
-        href="https://angel.co/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i className="fab fa-angellist hover_effect" />
-      </a>
-    </Col>
   </Row>
 )
