@@ -1,0 +1,48 @@
+.myjumbo {
+  min-height: 26rem;
+}
+
+.myjumbo h1 {
+  line-height: 125%;
+}
+
+.myjumbo h2 {
+  font-size: 2rem;
+}
+
+.myjumbo h3 {
+  font-size: 1.7rem;
+}
+.myjumbo_content {
+  margin-top: 6.5rem;
+  width: 100%;
+  padding: 1rem;
+}
+
+.myjumbo_content p {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 550px) {
+  .myjumbo {
+    height: 10rem;
+  }
+  .myjumbo h1 {
+    margin-top: 2rem;
+    font-size: 1.75rem;
+  }
+
+  .myjumbo h3 {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+  }
+
+  .myjumbo_content {
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+  }
+
+  .myjumbo_content p {
+    font-size: 1.25rem;
+  }
+}

@@ -1,0 +1,50 @@
+.jumbo {
+  height: 80vh;
+}
+
+.jumbo h1 {
+  line-height: 125%;
+}
+
+.jumbo h2 {
+  font-size: 2rem;
+}
+
+.jumbo h3 {
+  font-size: 1.7rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+.jumbo_content {
+  margin-top: 6.5rem;
+  margin-bottom: 6rem;
+  width: 100%;
+}
+
+.jumbo_content p {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 550px) {
+  .jumbo {
+    height: 36rem;
+  }
+  .jumbo h1 {
+    margin-top: 4rem;
+    font-size: 1.75rem;
+  }
+
+  .jumbo h3 {
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+  }
+
+  .jumbo_content {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  .jumbo_content p {
+    font-size: 1.25rem;
+  }
+}
