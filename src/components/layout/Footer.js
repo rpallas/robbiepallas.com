@@ -6,6 +6,8 @@ import { Link } from "gatsby"
 import "./footer.css"
 import "../../fontawesome/css/all.min.css"
 
+import SocialRow from "../SocialRow/SocialRow"
+
 const Footer = () => (
   <Jumbotron fluid style={footer_styles}>
     <Container style={{ maxWidth: "960px" }}>
@@ -52,78 +54,17 @@ const Footer = () => (
           </Link>
         </Col>
       </Row>
-
-      {/* TODO: Make use of the SocialRow component to make the below icons obsolete */}
-
       <Row className="footer_social text-center">
         <Col>
-          <a
-            href="https://www.github.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fab fa-github hover_effect" />
-          </a>
-        </Col>
-        <Col>
-          <a
-            href="https://www.linkedin.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fab fa-linkedin hover_effect" />
-          </a>
-        </Col>
-        <Col>
-          <a
-            href="https://twitter.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fab fa-twitter hover_effect" />
-          </a>
-        </Col>
-
-        <Col>
-          <a
-            href="https://www.instagram.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fab fa-instagram hover_effect" />
-          </a>
-        </Col>
-
-        <Col>
-          <a
-            className="hover_effect"
-            href="https://www.hackerrank.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fab fa-hackerrank hover_effect" />
-          </a>
-        </Col>
-        <Col>
-          <a href="https://angel.co/" target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-angellist hover_effect" />
-          </a>
+          <SocialRow />
         </Col>
       </Row>
       <Row className="text-center" style={{ marginTop: "3rem" }}>
         <Col>
-          John Doe © {new Date().getFullYear()}, Built with
-          <i
-            className="fas fa-mug-hot"
-            style={{
-              marginLeft: "10px",
-              marginRight: "3px",
-              fontSize: "1.5rem",
-            }}
-          />
+          Robbie Pallas © {new Date().getFullYear()}, Built with
           <a href="https://www.gatsbyjs.org">
             {" "}
-            <span className="blueViolet">& Gatsby</span>
+            <span className="blueViolet">Gatsby</span>
           </a>
         </Col>
       </Row>
