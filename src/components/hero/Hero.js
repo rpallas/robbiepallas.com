@@ -5,25 +5,26 @@ import { Jumbotron } from "react-bootstrap"
 import "./hero.css"
 import SocialRow from "../SocialRow/SocialRow"
 
+import Gravatar from 'react-gravatar'
+
 const Hero = () => (
   <Jumbotron style={jumbo_styles} className="jumbo" fluid>
     <div className="jumbo_content">
+      <Gravatar email="robbie@robbiepallas.com" size={200} style={{'float':'right'}}/>
       <h1>Hey, I'm a Software developer from the UK, living in York.</h1>
       <br />
       <h3>
-        Right now I'm using Javascript, Node.js, and hapi.js to
-        design and build backend api systems.
+        Recently I've been using Javascript, Node.js, and hapi.js to
+        build and run API services in Docker on AWS
       </h3>
       <p>
-        Let's chat{" "}
-        <a href="mailto:robbie@robbiepallas.com">
-          <span style={{ color: "blueviolet" }}>robbie@robbiepallas.com</span>
-        </a>
+        Some things I do: CI/CD, Testing, Serverless, REST, GraphQL, Monitoring & Observability,
+        Devops, Leading, Hiring, Mentoring, Iterating, Owning, Communicating ...
       </p>
     </div>
-    <div>
+    {/* <div>
       <SocialRow />
-    </div>
+    </div> */}
   </Jumbotron>
 )
 

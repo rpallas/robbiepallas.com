@@ -13,15 +13,14 @@ const Footer = () => (
     <Container style={{ maxWidth: "960px" }}>
       <Row>
         <Col>
-          <h3>John Doe</h3>
+          <h3>Robbie Pallas</h3>
           <p style={{ color: "blueviolet", fontSize: "1.3rem" }}>
             {/*TODO: ADD A MAILTO-LINK */}
-            john.doe@gmail.com
+            robbie@robbiepallas.com
           </p>
           <br />
           <p style={{ fontSize: "1.3rem" }}>
-            I'm a great developer that loves to code. I can help you grow your
-            next product.
+            I'm a great developer that loves to code. I can help you grow your product.
           </p>
         </Col>
       </Row>

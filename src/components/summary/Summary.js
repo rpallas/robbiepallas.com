@@ -8,7 +8,7 @@ import "./summary.css"
 
 const Summary = () => (
   <Container className="content" fluid>
-    <h3>Cool Recent Tech I use:</h3>
+    <h3>Some things I use:</h3>
     <br />
     <Row className="text-center tech_icons">
       <Col>
@@ -27,14 +27,75 @@ const Summary = () => (
         <span>AWS</span>
       </Col>
       <Col>
+        <i className="fab fa-digital-ocean hover_effect" />
+        <br />
+        <span>DigitalOcean</span>
+      </Col>
+      <Col>
         <i className="fab fa-docker hover_effect" />
         <br />
         <span>Docker</span>
       </Col>
     </Row>
     <br />
+    <Row className="text-center tech_icons">
+      <Col>
+        <i className="fab fa-react hover_effect" />
+        <br />
+        <span>React</span>
+      </Col>
+      <Col>
+        <i className="fab fa-git hover_effect" />
+        <br />
+        <span>Git</span>
+      </Col>
+      <Col>
+        <i className="fab fa-github hover_effect" />
+        <br />
+        <span>Github</span>
+      </Col>
+      <Col>
+        <i className="fab fa-gitlab hover_effect" />
+        <br />
+        <span>Gitlab</span>
+      </Col>
+      <Col>
+        <i className="fab fa-jira hover_effect" />
+        <br />
+        <span>Jira</span>
+      </Col>
+    </Row>
+    <br />
+    <Row className="text-center tech_icons">
+      <Col>
+        <i className="fab fa-npm hover_effect" />
+        <br />
+        <span>npm</span>
+      </Col>
+      <Col>
+        <i className="fab fa-trello hover_effect" />
+        <br />
+        <span>Trello</span>
+      </Col>
+      <Col>
+        <i className="fab fa-slack hover_effect" />
+        <br />
+        <span>Slack</span>
+      </Col>
+      <Col>
+        <i className="fab fa-stack-overflow hover_effect" />
+        <br />
+        <span>Stack Overflow</span>
+      </Col>
+      <Col>
+        <i className="fab fa-ethereum hover_effect" />
+        <br />
+        <span>Blockchain</span>
+      </Col>
+    </Row>
+    <br />
 
-    <h4 className="goal_text text-center">
+    {/* <h4 className="goal_text text-center">
       My biggest goal as an Engineer is to never stop learning, and work on cool
       stuff. Here's a couple of things I'm good at:
     </h4>
@@ -84,7 +145,7 @@ const Summary = () => (
       praesentium tenetur blanditiis repellendus facilis maiores ducimus cumque,
       nesciunt nulla non ad excepturi magni eveniet voluptatum numquam libero
       error mollitia.
-    </h4>
+    </h4> */}
   </Container>
 )
 
