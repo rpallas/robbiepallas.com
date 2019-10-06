@@ -20,7 +20,7 @@ const Footer = () => (
           </p>
           <br />
           <p style={{ fontSize: "1.3rem" }}>
-            I'm a great developer that loves to code. I can help you grow your product.
+            I'm a great developer that loves to build. I can help you grow your product.
           </p>
         </Col>
       </Row>
