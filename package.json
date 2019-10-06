@@ -14,24 +14,24 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "dependencies": {
-    "boostrap": "^2.0.0",
-    "gatsby": "^2.3.24",
-    "gatsby-plugin-favicon": "^3.1.6",
-    "gatsby-plugin-google-analytics": "^2.0.18",
-    "gatsby-plugin-manifest": "^2.0.26",
-    "gatsby-plugin-react-helmet": "^3.0.11",
-    "gatsby-plugin-sharp": "^2.0.32",
-    "gatsby-source-filesystem": "^2.0.28",
-    "gatsby-transformer-sharp": "^2.1.17",
-    "react": "^16.8.6",
-    "react-bootstrap": "^1.0.0-beta.6",
-    "react-dom": "^16.8.6",
-    "react-gravatar": "^2.6.3",
-    "react-helmet": "^5.2.0"
+    "boostrap": "2.0.0",
+    "gatsby": "2.3.24",
+    "gatsby-plugin-favicon": "3.1.6",
+    "gatsby-plugin-google-analytics": "2.0.18",
+    "gatsby-plugin-manifest": "2.0.26",
+    "gatsby-plugin-react-helmet": "3.0.11",
+    "gatsby-plugin-sharp": "2.0.32",
+    "gatsby-source-filesystem": "2.0.28",
+    "gatsby-transformer-sharp": "2.1.17",
+    "react": "16.8.6",
+    "react-bootstrap": "1.0.0-beta.6",
+    "react-dom": "16.8.6",
+    "react-gravatar": "2.6.3",
+    "react-helmet": "5.2.0"
   },
   "devDependencies": {
-    "gh-pages": "^2.0.1",
-    "prettier": "^1.16.4"
+    "gh-pages": "2.0.1",
+    "prettier": "1.16.4"
   },
   "repository": {
     "type": "git",
