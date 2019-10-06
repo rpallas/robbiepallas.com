@@ -18,8 +18,8 @@ const Hero = () => (
         build and run API services in Docker on AWS
       </h3>
       <p>
-        Some things I do: CI/CD, Testing, Serverless, REST, GraphQL, Monitoring & Observability,
-        Devops, Leading, Hiring, Mentoring, Iterating, Owning, Communicating ...
+        Some things I do: CI/CD, Testing, Serverless, REST, NoSQL, Monitoring & Observability,
+        Devops, Leading, Hiring, Mentoring, Iterating, Communicating ...
       </p>
     </div>
     {/* <div>
