@@ -28,11 +28,11 @@ const MyNavbar = () => (
             GitHub
           </a>
         </li>
-        <li className="float_right">
+        {/* <li className="float_right">
           <Link to="/projects" className="menu_link">
             Projects
           </Link>
-        </li>
+        </li> */}
         <li className="float_right">
           <Link to="/about" className="menu_link">
             About
