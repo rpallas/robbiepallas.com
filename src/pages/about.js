@@ -19,7 +19,7 @@ export default () => (
         body={
           "So you are looking for a professional, communicative & punctual software engineer who likes to keep productive."
         }
-        body2={"I can also do this cool thing if that's... needed."}
+        body2={""}
       />
       <hr />
       <Container fluid>
@@ -34,7 +34,7 @@ export default () => (
         </Row>
         <Row>
           <Col>
-            <h5>I like to build, test and deploy things. Then I like to make pretty dashboards and stare at them</h5>
+            <h5>I like to build, test and deploy things. Then I like to make pretty monitoring dashboards and study them</h5>
             <br />
             <p>
               I've been developing software professionally since 2004. Over the years I've gained experience in a
