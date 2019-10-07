@@ -15,11 +15,11 @@ export default () => (
   <div className="App">
     <Layout>
       <MyJumbo
+        title={"tldr; About me."}
         body={
           "So you are looking for a professional, communicative & punctual software engineer who likes to keep productive."
         }
         body2={"I can also do this cool thing if that's... needed."}
-        title={"tldr; About me."}
       />
       <hr />
       <Container fluid>
@@ -34,22 +34,21 @@ export default () => (
         </Row>
         <Row>
           <Col>
-            <h5>I love Coffee. I mean, more than people normaly like coffee</h5>
+            <h5>I like to build, test and deploy things. Then I like to make pretty dashboards and stare at them</h5>
             <br />
             <p>
-              I'm a Software Engineer building noice Websites on the internet.
+              I've been developing software professionally since 2004. Over the years I've gained experience in a
+              variety of domains including, health care, telecoms, games and online video services.
               <br />
               <br />
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut,
-              pariatur nobis ipsa laborum quae, fuga vel a, dolor consectetur
-              blanditiis explicabo dolorem quos sunt voluptatibus dicta commodi
-              temporibus magnam placeat.
+              I've worked on projects including <a href="https://piksel.com/">VOD/OVP platforms</a>,
+              video metadata, identity and access, <a href="https://www.youtube.com/watch?v=hxQ4Cd-_RNw">AAA console games</a>,
+              mobile games, high traffic public websites and more.
               <br />
               <br />
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
-              consequuntur. Numquam quaerat hic eum, earum perferendis totam!
-              Fugiat, explicabo placeat labore voluptatum voluptas numquam
-              repudiandae delectus animi dolorem consequatur. Reiciendis?
+              I have a passion for writing clean, maintainable code thats well tested. I enjoy
+              developing strong working friendships with my colleagues and collaborating to make
+              awesome products that make users smile.
             </p>
           </Col>
         </Row>
