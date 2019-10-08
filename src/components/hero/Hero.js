@@ -3,7 +3,7 @@ import { Jumbotron } from "react-bootstrap"
 
 //import custom styles
 import "./hero.css"
-import SocialRow from "../SocialRow/SocialRow"
+// import SocialRow from "../SocialRow/SocialRow"
 
 import Gravatar from 'react-gravatar'
 

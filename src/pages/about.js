@@ -8,8 +8,7 @@ import "./index.css"
 
 import { Container, Row, Col } from "react-bootstrap"
 
-import CV from "/" //Import you CV file here!
-import other from "/" //Import other downloadable here
+import CV from "../downloads/RobbiePallas_CV.pdf"
 
 export default () => (
   <div className="App">
@@ -25,7 +24,6 @@ export default () => (
       <Container fluid>
         <Row style={{ marginTop: "2rem", marginBottom: "1.5rem" }}>
           <MyButton text={"CV download"} URL={CV} />
-          <MyButton text={"Other Downloadable"} URL={other} />
         </Row>
         <Row>
           <Col>
@@ -37,7 +35,7 @@ export default () => (
             <h5>I like to build, test and deploy things. Then I like to make pretty monitoring dashboards and study them</h5>
             <br />
             <p>
-              I've been developing software professionally since 2004. Over the years I've gained experience in a
+              I've been developing software professionally since 2003. Over the years I've gained experience in a
               variety of domains including, health care, telecoms, games and online video services.
               <br />
               <br />
@@ -59,44 +57,102 @@ export default () => (
             <h3>Past work experience</h3>
           </Col>
         </Row>
-        {/* Position number 1*/}
         <Row>
           <Col>
-            <h5>Software Engineer</h5>
+            <h5>Tech Lead/Product Owner</h5>
           </Col>
         </Row>
         <Row>
-          <Col>ACME Studios, Roadrunner City, US</Col>
-          <Col>2015.09 - 2019.01</Col>
+          <Col><a target="_blank" rel="noopener noreferrer" href="https://piksel.com">Piksel Ltd</a></Col>
+          <Col>May 2014 - Present</Col>
         </Row>
         <Row>
           <Col>
             <p style={{ marginTop: "1rem" }}>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et iure
-              nisi consequuntur provident officia odio vitae, nam neque natus
-              debitis earum facere, quibusdam similique itaque sed, cumque
-              aliquam voluptas quos.
+              At Piksel, we design, build and run high-end video and entertainment platforms.
+            </p>
+            <p style={{ marginTop: "1rem" }}>
+              I work in a globally distributed agile development team where we develop backend
+              API systems for video metadata management.
+            </p>
+            <p style={{ marginTop: "1rem" }}>
+              As Product Owner I’m responsible for developing API solutions that solve problems
+              for our customers. I work with other PO’s and the Head of Product to priorities
+              and coordinate the release of features. I work closely with my team to design,
+              develop and run these API’s at high scale for global clients.
+            </p>
+            <p style={{ marginTop: "1rem" }}>
+              As Tech Lead I'm responsible for the technical leadership of a highly skilled
+              development team. We build libraries and services enabling quicker development
+              of business solutions.
+            </p>
+            <ul>
+              <li>REST microservice APIs built using node.js and hapi.js</li>
+              <li>Services - Identity, Registry, Notification, Geo</li>
+              <li>Cassandra/Solr (Datastax DSE), MongoDb</li>
+              <li>Docker, Marathon, Kubernetes</li>
+              <li>AWS - EC2, S3, ECS, EKS, API Gateway, DynamoDB, Lambda, Cognito</li>
+              <li>EFK Stack, Grafana/Kibana, Dyantrace</li>
+            </ul>
+          </Col>
+        </Row>
+        <hr />
+        <Row>
+          <Col>
+            <h5>Tools Developer - Central Tech</h5>
+          </Col>
+        </Row>
+        <Row>
+          <Col><a target="_blank" rel="noopener noreferrer" href="http://www.codemasters.com">Codemasters</a></Col>
+          <Col>July 2007 - July 2010</Col>
+        </Row>
+        <Row>
+          <Col>
+            <p style={{ marginTop: "1rem" }}>
+              Tools development for <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=mrxjvR3Rk18">Operation
+              Flashpoint</a> series of games.
+            </p>
+            <p style={{ marginTop: "1rem" }}>
+              Agile development methodologies (Scrum) - Large team of 100+ developers.
+            </p>
+            <p style={{ marginTop: "1rem" }}>
+              Projects include: Visual Effects Editor, Mission Editor, World Editor, Asset Pipelines, Exporters, Data Visualization, Build Deployment and Automatic Branching Tools.
+              .Net, C#, C++, Winforms, Silverlight, Wpf, Python, Perforce.
+            </p>
+            <p style={{ marginTop: "1rem" }}>
+              Development using X360 and PS3 development kits.
             </p>
           </Col>
         </Row>
         <hr />
-        {/* SW intern Position*/}
         <Row>
           <Col>
-            <h5>Software Engineer Intern</h5>
+            <h5>Lead Web Services Developer</h5>
           </Col>
         </Row>
         <Row>
-          <Col>Mip Mip Co LTD, Roadrunner City, US&A</Col>
-          <Col>2014.06 - 2014.09</Col>
+          <Col><a target="_blank" rel="noopener noreferrer" href="https://www.crunchbase.com/organization/caperfly">Caperfly</a></Col>
+          <Col>Aug 2012 - Dec 2013</Col>
         </Row>
         <Row>
           <Col>
             <p style={{ marginTop: "1rem" }}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-              ullam eius nihil porro itaque nobis facere. Impedit eos minima
-              porro. Culpa, laboriosam! Qui quo provident aperiam et ullam odio
-              ex.
+              I was with Caperfly through the development of 2 iOS trivia games
+              PredictThis and Big Brother - The Official Game.
+            </p>
+            <p style={{ marginTop: "1rem" }}>
+              Responsible for all server side development and cloud management (AWS & Scalr)
+              for the backend of the companies mobile games. This includes the setup and
+              configuration of the entire server stack, including: installing web servers,
+              deployment, scaling, load balancing, load testing, DNS management, logging
+              and monitoring.
+            </p>
+            <p style={{ marginTop: "1rem" }}>
+              I was also tasked with the development and maintenance of our web service API's
+              and a selection of in-house tools, such as web based editing of game data. For
+              this we used a variety of technologies including MongoDb (game data), Php
+              (main game backend services) and NodeJs (additional services), Javascript
+              SPA using KnockoutJS (editor).
             </p>
           </Col>
         </Row>
@@ -107,24 +163,19 @@ export default () => (
             <h3>Education</h3>
           </Col>
         </Row>
-        {/* Masters Degreee*/}
         <Row>
           <Col>
-            <h5>MSc. ACME studies</h5>
+            <h5>Computer Science Degree</h5>
           </Col>
         </Row>
         <Row>
-          <Col>ACME University, ACME City, US</Col>
-          <Col>2009.08 - 2015.08</Col>
+          <Col>Sheffield Hallam University, UK</Col>
+          <Col>2000 - 2004</Col>
         </Row>
         <Row>
           <Col>
             <p style={{ marginTop: "1rem" }}>
-              <strong>Specialization:</strong>
-              <br /> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Tenetur quasi fugit accusamus officia sequi optio nulla,
-              cupiditate in vitae natus odit nihil commodi corrupti mollitia
-              necessitatibus iure eius praesentium? Fugit!
+              <strong>Specialization: Software Engineering</strong>
             </p>
           </Col>
         </Row>
