@@ -131,7 +131,11 @@ export default () => (
           </Col>
         </Row>
         <Row>
-          <Col><a target="_blank" rel="noopener noreferrer" href="https://www.crunchbase.com/organization/caperfly">Caperfly</a></Col>
+          <Col>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.crunchbase.com/organization/caperfly">Caperfly</a>
+            <br />
+            100% Remote
+          </Col>
           <Col>Aug 2012 - Dec 2013</Col>
         </Row>
         <Row>

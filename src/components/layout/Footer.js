@@ -58,6 +58,16 @@ const Footer = () => (
           <SocialRow />
         </Col>
       </Row>
+      <Row className="footer_social text-center">
+        <Col>
+          <a href="https://stackoverflow.com/users/459517/robbie">
+            <img src="https://stackoverflow.com/users/flair/459517.png?theme=dark"
+              width="208" height="58"
+              alt="profile for Robbie at Stack Overflow"
+              title="profile for Robbie at Stack Overflow"></img>
+          </a>
+        </Col>
+      </Row>
       <Row className="text-center" style={{ marginTop: "3rem" }}>
         <Col>
           Robbie Pallas © {new Date().getFullYear()}, Built with
