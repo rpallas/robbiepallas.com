@@ -77,9 +77,9 @@ export default () => (
             </p>
             <p style={{ marginTop: "1rem" }}>
               As Product Owner I’m responsible for developing API solutions that solve problems
-              for our customers. I work with other PO’s and the Head of Product to priorities
+              for our customers. I work with other POs and the Head of Product to prioritise
               and coordinate the release of features. I work closely with my team to design,
-              develop and run these API’s at high scale for global clients.
+              develop and run these APIs at high scale for global clients.
             </p>
             <p style={{ marginTop: "1rem" }}>
               As Tech Lead I'm responsible for the technical leadership of a highly skilled
@@ -148,7 +148,7 @@ export default () => (
               and monitoring.
             </p>
             <p style={{ marginTop: "1rem" }}>
-              I was also tasked with the development and maintenance of our web service API's
+              I was also tasked with the development and maintenance of our web service APIs
               and a selection of in-house tools, such as web based editing of game data. For
               this we used a variety of technologies including MongoDb (game data), Php
               (main game backend services) and NodeJs (additional services), Javascript
