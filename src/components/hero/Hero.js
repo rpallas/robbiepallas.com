@@ -14,7 +14,7 @@ const Hero = () => (
       <h1>Hey, I'm a Software developer from the UK, living in York.</h1>
       <br />
       <h3>
-        Recently I've been using Javascript, Node.js, and hapi.js to
+        Recently I've been using Javascript, node.js, and hapi.js to
         build and run API services in Docker on AWS
       </h3>
       <p>
