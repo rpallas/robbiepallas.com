@@ -169,7 +169,7 @@ export default () => (
         </Row>
         <Row>
           <Col>
-            <h5>Computer Science Degree</h5>
+            <h5>Computing Degree</h5>
           </Col>
         </Row>
         <Row>
