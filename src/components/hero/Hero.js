@@ -10,7 +10,7 @@ import Gravatar from 'react-gravatar'
 const Hero = () => (
   <Jumbotron style={jumbo_styles} className="jumbo" fluid>
     <div className="jumbo_content">
-      <Gravatar email="robbie@robbiepallas.com" size={200} style={{'float':'right'}}/>
+      <Gravatar email="robbie@robbiepallas.com" size={200}/>
       <h1>Hey, I'm a software developer from the UK, living in York.</h1>
       <br />
       <h3>

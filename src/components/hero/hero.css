@@ -15,6 +15,7 @@
   margin-top: 2rem;
   margin-bottom: 5rem;
 }
+
 .jumbo_content {
   margin-top: 6.5rem;
   margin-bottom: 6rem;
@@ -23,6 +24,11 @@
 
 .jumbo_content p {
   font-size: 1.5rem;
+}
+
+.jumbo_content img {
+  float: right;
+  margin-right: 15px;
 }
 
 @media (max-width: 550px) {
