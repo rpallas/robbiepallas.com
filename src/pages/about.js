@@ -32,7 +32,7 @@ export default () => (
         </Row>
         <Row>
           <Col>
-            <h5>I like to build, test and deploy things. Then I like to make pretty monitoring dashboards and study them</h5>
+            <h5>I like to build, test and deploy things. Then I like to make monitoring dashboards to study those things</h5>
             <br />
             <p>
               I've been developing software professionally since 2003. Over the years I've gained experience in a
