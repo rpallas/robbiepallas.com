@@ -11,7 +11,7 @@ const Hero = () => (
   <Jumbotron style={jumbo_styles} className="jumbo" fluid>
     <div className="jumbo_content">
       <Gravatar email="robbie@robbiepallas.com" size={200} style={{'float':'right'}}/>
-      <h1>Hey, I'm a Software developer from the UK, living in York.</h1>
+      <h1>Hey, I'm a software developer from the UK, living in York.</h1>
       <br />
       <h3>
         Recently I've been using Javascript, node.js, and hapi.js to
