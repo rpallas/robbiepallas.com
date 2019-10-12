@@ -70,7 +70,7 @@ const Footer = () => (
       </Row>
       <Row className="text-center" style={{ marginTop: "3rem" }}>
         <Col>
-          Robbie Pallas © {new Date().getFullYear()}, Built with
+          Robbie Pallas - {new Date().getFullYear()}, Built with
           <a href="https://www.gatsbyjs.org">
             {" "}
             <span className="blueViolet">Gatsby</span>
