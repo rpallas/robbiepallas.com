@@ -14,7 +14,7 @@ export default () => (
   <div className="App">
     <Layout>
       <MyJumbo
-        title={"tldr; About me."}
+        title={"About me"}
         body={
           "So you are looking for a professional, communicative & punctual software engineer who likes to keep productive."
         }
