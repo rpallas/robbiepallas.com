@@ -47,5 +47,16 @@ export default () => (
       </a>
     </Col>
 
+    <Col>
+      <a
+        style={{ color: "#000" }}
+        href="https://www.goodreads.com/user/show/103995856-robbie-pallas"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i className="fab fa-goodreads hover_effect" />
+      </a>
+    </Col>
+
   </Row>
 )
