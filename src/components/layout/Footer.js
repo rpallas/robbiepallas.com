@@ -47,11 +47,11 @@ const Footer = () => (
             <span className="link_styles">About</span>
           </Link>
         </Col>
-        <Col xs={2} style={{ fontSize: "1.3rem" }}>
+        {/* <Col xs={2} style={{ fontSize: "1.3rem" }}>
           <Link to="/projects">
             <span className="link_styles">Projects</span>
           </Link>
-        </Col>
+        </Col> */}
       </Row>
       <Row className="footer_social text-center">
         <Col>
