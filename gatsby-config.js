@@ -60,5 +60,13 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // 'gatsby-plugin-offline',
+    {
+      resolve: "gatsby-plugin-goodreads",
+      options: {
+        developerKey: "lzZmCmsPNwp5GM04XK2S3g",
+        goodReadsUserId: "103995856",
+        // userShelf: "to-read" //optional
+      }
+    }
   ],
 }

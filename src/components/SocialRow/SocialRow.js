@@ -35,7 +35,6 @@ export default () => (
         <i className="fab fa-twitter hover_effect" />
       </a>
     </Col>
-
     <Col>
       <a
         style={{ color: "#000" }}
@@ -46,7 +45,6 @@ export default () => (
         <i className="fab fa-stack-overflow hover_effect" />
       </a>
     </Col>
-
     <Col>
       <a
         style={{ color: "#000" }}
@@ -57,6 +55,5 @@ export default () => (
         <i className="fab fa-goodreads hover_effect" />
       </a>
     </Col>
-
   </Row>
 )

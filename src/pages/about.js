@@ -183,6 +183,15 @@ export default () => (
             </p>
           </Col>
         </Row>
+        <hr />
+        {/* This is the beginning of the reading section*/}
+        {/* <Row>
+          <Col>
+            <h3>Things I've read</h3>
+          </Col>
+        </Row>
+        <Row>
+        </Row> */}
       </Container>
     </Layout>
   </div>
