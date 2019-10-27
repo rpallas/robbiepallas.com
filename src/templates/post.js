@@ -2,13 +2,19 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 
+import Layout from "../components/layout/Layout"
+import MyJumbo from "../components/myJumbo/MyJumbo"
+
 export default function Template({ data }) {
   const { markdownRemark: post } = data;
   return (
-    <div>
-      <h1>{post.frontmatter.title}</h1>
+    <div className="App">
+    <Layout>
+      <MyJumbo title={post.frontmatter.title} />
+      <hr />
       <div dangerouslySetInnerHTML={{__html: post.html}} />
-    </div>
+    </Layout>
+  </div>
   )
 }
 
