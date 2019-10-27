@@ -34,6 +34,11 @@ const MyNavbar = () => (
           </Link>
         </li> */}
         <li className="float_right">
+          <Link to="/blog" className="menu_link">
+            Blog
+          </Link>
+        </li>
+        <li className="float_right">
           <Link to="/about" className="menu_link">
             About
           </Link>

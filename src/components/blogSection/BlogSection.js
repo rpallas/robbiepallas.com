@@ -2,19 +2,20 @@ import React from "react"
 
 import { Container, Row, Col } from "react-bootstrap"
 
-const BlogSection = () => (
+const BlogSection = props => (
   <React.Fragment>
     <Container fluid>
-      <h1>Latests Blog Posts</h1>
-      <Row>
-        <Col>BlogPost1</Col>
-      </Row>
-      <Row>
-        <Col>BlogPost2</Col>
-      </Row>
-      <Row>
-        <Col>BlogPost3</Col>
-      </Row>
+      {props.posts.map(post => (
+        <Row>
+          <Col>
+            <a
+              key={post.node.id}
+              href={post.node.frontmatter.path}>
+              {post.node.frontmatter.title}
+            </a>
+          </Col>
+        </Row>
+      ))}
     </Container>
   </React.Fragment>
 )
