@@ -3,6 +3,8 @@ import Layout from "../components/layout/Layout"
 import MyJumbo from "../components/myJumbo/MyJumbo"
 import BlogSection from "../components/blogSection/BlogSection"
 
+import { graphql } from 'gatsby'
+
 //import bootstrap styles
 import "../bootstrap/css/bootstrap.min.css"
 
