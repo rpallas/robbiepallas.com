@@ -9,6 +9,14 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: 'blogPosts',
+        path: `${__dirname}/src/blogPosts`,
+      }
+    },
+    'gatsby-transformer-remark',
+    {
       resolve: `gatsby-plugin-favicon`,
       options: {
         logo: "./src/favicon.png",
