@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import { Container, Row, Col } from "react-bootstrap"
 
@@ -8,11 +9,9 @@ const BlogSection = props => (
       {props.posts.map(post => (
         <Row>
           <Col>
-            <a
-              key={post.node.id}
-              href={post.node.frontmatter.path}>
+            <Link to={post.node.frontmatter.path} className="menu_link">
               {post.node.frontmatter.title}
-            </a>
+            </Link>
           </Col>
         </Row>
       ))}
