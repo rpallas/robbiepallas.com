@@ -21,7 +21,6 @@ const MyJumbo = props => (
       <span>
         <p>{props.body2}</p>
       </span>
-      <SocialRow />
     </div>
   </Jumbotron>
 )
